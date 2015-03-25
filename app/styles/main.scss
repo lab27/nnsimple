@@ -1,0 +1,121 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+html, body {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 100%;
+  color:#fff;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNzE5MTg2IiB5MT0iMS4xMDIyMDgiIHgyPSIwLjI4MDgxNCIgeTI9Ii0wLjEwMjIwOCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzNlOWRmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzNjNTRmOCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+background: -moz-linear-gradient(110deg, #3e9dff, #3c54f8);
+background: -webkit-linear-gradient(110deg, #3e9dff, #3c54f8);
+background: linear-gradient(-20deg, #3e9dff, #3c54f8);
+background-attachment: fixed;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.jumbotron {
+  margin: 0;
+  background:none;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+  letter-spacing: -1px;
+  margin-bottom: 18px;
+}
+
+p.lead {
+  font-size: 24px;
+  margin-bottom: 32px;
+  // color:#6C505C;
+}
+
+.btn {
+  color:#3e9dff;
+  border:none;
+  font-weight: 500;
+
+  text-align: right;
+  border-radius:0;
+  height: 60px;
+  padding:18px;
+}
+
+.twitter {
+    background:url(../images/twitter.svg) no-repeat 18px center #fff;
+  background-size:32px 32px;
+}
+
+.twitter:hover {
+  background:url(../images/twitter.svg) no-repeat 18px center #fff;
+  background-size:32px 32px;
+  color:#3c54f8;
+}
+
+.mail {
+      background:url(../images/mail.svg) no-repeat 18px center #fff;
+  background-size:32px 32px;
+}
+
+.mail:hover {
+  background:url(../images/mail.svg) no-repeat 18px center #fff;
+  background-size:32px 32px;
+  color:#3c54f8;
+}
+
+.mail-icon, .twitter-icon {
+  margin-right:24px;
+  // opacity: .8;
+  // transition: opacity .2s ease;
+}
+
+// .mail-icon:hover, .twitter-icon:hover {
+//   opacity: 1;
+// }
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .parent {
+    display: table;
+    table-layout: fixed;
+}
+
+.child {
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
+
+
+h1 {
+  font-size: 48px;
+  // margin-bottom: 36px;
+}
+
+p.lead {
+  font-size:24px;
+  line-height: 40px;
+}
+}
