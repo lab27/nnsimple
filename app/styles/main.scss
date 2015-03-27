@@ -12,7 +12,10 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 
 html, body {
   -webkit-font-smoothing: antialiased;
+
 }
+
+
 
 /* Space out content a bit */
 body {
@@ -37,8 +40,9 @@ background-attachment: fixed;
 
 .jumbotron {
   margin: 0;
-  background:none;
-  padding: 0;
+// background:url(../images/gem.png) no-repeat 50% 30%;  padding: 0;
+background:none;
+padding:0;
 }
 
 h1 {
